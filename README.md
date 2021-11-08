@@ -1,12 +1,12 @@
 # workoutTracker
 ## Description
-The main motivation for creating this project was to create offline functionality and access for this Budget Tracker app. This application is used primiarily as a budget Tracker for the user which keeps track of money gains and losses over time. Offline and online deposits and expenses are both kept track of in the app. Said app is deployed on heroku and uses MongoDB to store and display data.
+The main motivation for creating this project was to add backend Database Functionality to a workout tracker app. The Frontend app was already given but the back end required models and routes executed using MongoDB to achieve full functionality of the app. With full functionality this app allows the user to store and view previous workouts/exercises over time. 
 
 The main problems this app solves include:
-* Displaying offline and online deposits/expenses on app by utilizing the browsers cache.
+* Creating a backend MongoDB database for storing various workouts
 * Creating a live webpage using Heroku that utilizes MongoDB to host the stored data.
 
-Overall this project helped me to understand how browser cache interacts with applications and also helped me to gain more exposure to MongoDB and how to deploy an application using it. 
+Overall this project helped me to understand how to create model and routes using MongoDB and its associated packages while also gaining more familiarity with deployment on Heroku using AtlasDB. 
 
 ## Installation
 Node was required to be installed. Various Node_modules and packages were needed to be installed for express as well as package-lock.json which correspond with the supplied package.json
@@ -17,8 +17,8 @@ Node was required to be installed. Various Node_modules and packages were needed
 * Express.js
 * Node.js
 * MongoDB
-* IndexedDB
 * Heroku
+* Atlas DB
 
 ## Usage
 ``npm start``
