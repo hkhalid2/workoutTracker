@@ -42,5 +42,5 @@ MIT License
 
 https://pure-chamber-45773.herokuapp.com/?id=6188b9f12c27c60016a3bc27
 ### Screenshots
-![](images/screenshot1.png)
-![](images/screenshot2.png)
+![](images/Screenshot1.png)
+![](images/Screenshot2.png)
